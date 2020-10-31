@@ -1,0 +1,41 @@
+* {
+    margin:0;   
+    padding: 0%;
+    grid-gap: 2rem;
+}
+
+#grid-container {
+    display:grid;
+    
+}
+
+#header {
+    display:grid;
+    grid-template-columns: 1fr;
+    min-height: 10vh;
+    background-color: grey;
+
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 73vh;
+    grid-gap: 1rem;
+   
+}
+
+#content > div {
+    background-color: grey;
+}
+
+#footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: grey;
+    min-height: 6vh;
+
+}
+
+
+
